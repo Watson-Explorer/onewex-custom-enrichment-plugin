@@ -1,0 +1,9 @@
+dependencies {
+    compileOnly group: 'com.ibm.es.ama', name: 'ama-custom-enrichments', version: 'latest.integration'
+    compileOnly group: 'org.pf4j', name: 'pf4j', version: 'latest.integration'
+    compileOnly group: 'org.apache.httpcomponents', name: 'httpclient', version: 'latest.integration'
+    compileOnly group: 'org.apache.httpcomponents', name: 'httpcore', version: 'latest.integration'
+    compileOnly group: 'commons-codec', name: 'commons-codec', version: 'latest.integration'
+    compileOnly group: 'com.fasterxml.jackson.core', name: 'jackson-databind', version: 'latest.integration'
+    compileOnly group: 'com.fasterxml.jackson.core', name: 'jackson-core', version: 'latest.integration'
+}

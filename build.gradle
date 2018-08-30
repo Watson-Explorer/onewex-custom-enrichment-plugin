@@ -1,0 +1,11 @@
+subprojects {
+    apply plugin: 'java'
+
+    repositories {
+        flatDir {
+            dirs "$rootDir/lib"
+        }
+     }
+}
+
+ext.pluginsDir = rootProject.buildDir.path + '/plugins'

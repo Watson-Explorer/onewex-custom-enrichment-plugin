@@ -1,0 +1,4 @@
+rootProject.name = 'onewex-custom-enrichment-plugins'
+
+include 'plugins'
+include 'plugins:mla-plugin'
