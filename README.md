@@ -16,6 +16,10 @@
 
   * run `gradle build` to build Mahchine Learning Annotator plugin, find the plugin archive under plugin folder.
   
+    Note 1: Gradle 5 is not available. Use Gradle 4.
+    
+    Note 2: Implement only one implementation of CustomEnrichment 
+  
   * Create file resource
 
   * Upload Mahchine Learning Annotator Plugin
